@@ -31,6 +31,7 @@ app.add_middleware(
         "http://localhost:3000",
         "http://localhost:5173",
         "https://spotify-music-recommendation-pkh40zx.vercel.app",
+        "https://sonora-music-recommendation.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
