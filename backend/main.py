@@ -30,9 +30,9 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://localhost:5173",
-        "https://sonora-music-recommendation-h53qeupuv.vercel.app",
         "https://sonora-music-recommendation.vercel.app",
     ],
+    allow_origin_regex=r"https://sonora-music-.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
